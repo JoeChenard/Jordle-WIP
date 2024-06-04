@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://gchuvorl6n5c"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cc5me"]
+bg_color = Color(0.196078, 0.211765, 0.203922, 1)
+
+[node name="key" type="Button"]
+offset_right = 60.0
+offset_bottom = 91.0
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_cc5me")
+text = "カ"

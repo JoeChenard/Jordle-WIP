@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvgg4l3lwpyb2"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mcra0"]
+bg_color = Color(0.196078, 0.458824, 0.196078, 0)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.203922, 0.203922, 0.203922, 1)
+
+[node name="guessPanel" type="Panel"]
+custom_minimum_size = Vector2(110, 110)
+theme_override_styles/panel = SubResource("StyleBoxFlat_mcra0")
+
+[node name="label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 90
+horizontal_alignment = 1
+text_overrun_behavior = 1
